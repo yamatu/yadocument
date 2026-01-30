@@ -1,0 +1,31 @@
+
+# env files (keep example template)
+.env*
+!.env.example
+
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# archives / artifacts
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# local scratch files
+test-api.html
+
+# OS / editor
+.DS_Store
